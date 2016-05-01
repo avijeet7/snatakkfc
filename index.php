@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0043)index.html -->
+<!-- saved from url=(0043)index.php -->
 <html lang="en" class=" js no-flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths gr__alethemes_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <title>Snatakk FC IITB</title>
@@ -22,6 +22,19 @@
 </head>
 <body data-gr-c-s-loaded="true">
     <!-- Header Section. If need a menu section, use tag: <nav> -->
+    <?php
+        $servername = "10.129.28.185";
+        $username = "avijeet";
+        $password = "delpiero";
+        $dbname = "snatakkfc";
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+    ?>
 	<div class="slider">
 		<div class="flexslider">
 			<ul class="slides">
@@ -29,25 +42,25 @@
 					<img src="./index_files/slider.jpg" alt="" draggable="false">
 					<div class="caption"><div class="container">
 					<h1><span>Beginning of </span>Snatakk FC</h1>
-					<a href="index.html" class="btn btn-bordered">read more</a>
+					<a href="index.php" class="btn btn-bordered">read more</a>
 					</div></div>
 				</li>
 				<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">
 					<img src="./index_files/slider2.jpg" alt="" draggable="false">
 					<div class="caption"><div class="container">
 					<h1><span>The new year</span>2016</h1>
-					<a href="index.html" class="btn btn-bordered">read more</a>
+					<a href="index.php" class="btn btn-bordered">read more</a>
 					</div></div>
 				</li>
 				<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">
 					<img src="./index_files/slider3.jpg" alt="" draggable="false">
 					<div class="caption"><div class="container">
 					<h1><span>Lets Play </span>Football</h1>
-					<a href="index.html" class="btn btn-bordered">read more</a>
+					<a href="index.php" class="btn btn-bordered">read more</a>
 					</div></div>
 				</li>
 			</ul>
-		<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li><li><a class="">3</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="index.html#">Previous</a></li><li><a class="flex-next" href="index.html#">Next</a></li></ul></div>
+		<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li><li><a class="">3</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="index.php#">Previous</a></li><li><a class="flex-next" href="index.php#">Next</a></li></ul></div>
 	</div>
     <header>
 		<div class="top">
@@ -58,24 +71,24 @@
 				  </div>
 					<nav id="top-menu">
 						<ul class="clearfix">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="team.html">Team</a></li>
-							<li><a href="blog.html">blog</a></li>
-							<li><a href="club.html">club</a></li>
-							<li><a href="gallery.html">gallery</a></li>
-							<li><a href="contact.html">contacts</a></li>
+							<li class="active"><a href="index.php">Home</a></li>
+							<li><a href="team.php">Team</a></li>
+							<li><a href="blog.php">blog</a></li>
+							<li><a href="club.php">club</a></li>
+							<li><a href="gallery.php">gallery</a></li>
+							<li><a href="contact.php">contacts</a></li>
 							
 						</ul>
-						<a href="index.html#" id="pull">Menu</a>
+						<a href="index.php#" id="pull">Menu</a>
 					</nav>
                     <nav class="mobilemenu">
                         <select>
-                            <option value="index.html">Home</option>
-                            <option value="team.html">Team</option>
-                            <option value="blog.html">Blog</option>
-                            <option value="club.html">Club</option>
-                            <option value="gallery.html">Gallery</option>
-                            <option value="contact.html">Contact</option>
+                            <option value="index.php">Home</option>
+                            <option value="team.php">Team</option>
+                            <option value="blog.php">Blog</option>
+                            <option value="club.php">Club</option>
+                            <option value="gallery.php">Gallery</option>
+                            <option value="contact.php">Contact</option>
                         </select>
                     </nav>
 					
@@ -118,23 +131,23 @@
 		</div>
 		<div class="col-4">
 			<div class="tab">news</div>
-			<div class="tab-small"><a href="index.html#">see all news</a></div>
+			<div class="tab-small"><a href="index.php#">see all news</a></div>
 			<div class="r-box-n">
-				<article>
-					<h3><a href="blog-single.html">Rangers review presents stark picture</a></h3>
-					<p>Praesent risus nisi, iaculis nec condimentum vel, rhoncus vel dolor. Aenean nisi lectus, varius nec tempus</p>
-					<span class="date-n">21 Mar</span>
-				</article>
-				<article>
-					<h3><a href="blog-single.html">Rangers review presents stark picture</a></h3>
-					<p>Praesent risus nisi, iaculis nec condimentum vel, rhoncus vel dolor. Aenean nisi lectus, varius nec tempus</p>
-					<span class="date-n">21 Mar</span>
-				</article>
-				<article>
-					<h3><a href="blog-single.html">Rangers review presents stark picture</a></h3>
-					<p>Praesent risus nisi, iaculis nec condimentum vel, rhoncus vel dolor. Aenean nisi lectus, varius nec tempus</p>
-					<span class="date-n">21 Mar</span>
-				</article>
+                <?php
+                    $sql = "SELECT id, title, details, date FROM news ORDER BY id DESC";
+                    $result = $conn->query($sql);
+
+                    if ($result->num_rows > 0) {
+                        $i = 0;
+                        while($row = $result->fetch_assoc()) {
+                            if ($i++ >= 5)
+                                break;
+                            $date = new DateTime($row["date"]);
+                            $newdate = $date->format('d M');
+                            echo "<article><h3>" . $row["title"]. "</h3><p>" . $row["details"]. "</p><span class='date-n'>" . $newdate. "</span></article>";
+                        }
+                    }
+                ?>
 			</div>
 		</div>
     </div>
@@ -142,16 +155,16 @@
 	<!-- Footer Section -->
     <footer>
 		<div class="container">
-			<div class="col-2"><a href="team.html#"><img src="./Team_files/footer-logo.png" width="140px" height="166px" alt=""></a></div>
+			<div class="col-2"><a href="team.php#"><img src="./Team_files/footer-logo.png" width="140px" height="166px" alt=""></a></div>
 			<div class="col-6">
 				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as </p>
 			<div class="col-4">
 				<div class="social-icon">
 					<ul id="social">
-						<li><a href="index.html#"><img src="./index_files/soc-twitter.png" alt=""></a></li>
-						<li><a href="index.html#"><img src="./index_files/soc-facebook.png" alt=""></a></li>
-						<li><a href="index.html#"><img src="./index_files/soc-g.png" alt=""></a></li>
-						<li><a href="index.html#"><img src="./index_files/soc-play.png" alt=""></a></li>
+						<li><a href="index.php#"><img src="./index_files/soc-twitter.png" alt=""></a></li>
+						<li><a href="index.php#"><img src="./index_files/soc-facebook.png" alt=""></a></li>
+						<li><a href="index.php#"><img src="./index_files/soc-g.png" alt=""></a></li>
+						<li><a href="index.php#"><img src="./index_files/soc-play.png" alt=""></a></li>
 					</ul>
 				</div>
 			</div><div class="col-6"><p class="copyright">© 2016  - All Rights Reserved </p></div>
@@ -159,22 +172,22 @@
 			<div class="col-2">
 			<h3>Information</h3>
 				<ul>
-					<li><a href="club.html">About club</a></li>
-					<li><a href="team.html">Our team</a></li>
-					<li><a href="index.html#">Registration</a></li>
-					<li><a href="index.html#">Features</a></li>
-					<li><a href="index.html#">404 page</a></li>
+					<li><a href="club.php">About club</a></li>
+					<li><a href="team.php">Our team</a></li>
+					<li><a href="index.php#">Registration</a></li>
+					<li><a href="index.php#">Features</a></li>
+					<li><a href="index.php#">404 page</a></li>
 
 				</ul>
 			</div>
 			<div class="col-2">
 			<h3>Support</h3>
 				<ul>
-					<li><a href="index.html#">Terms of Service</a></li>
-					<li><a href="index.html#">Security</a></li>
-					<li><a href="index.html#">Privacy PolicyHomepage</a></li>
-					<li><a href="index.html#">Sitemap</a></li>
-					<li><a href="index.html#">FAQ</a></li>
+					<li><a href="index.php#">Terms of Service</a></li>
+					<li><a href="index.php#">Security</a></li>
+					<li><a href="index.php#">Privacy PolicyHomepage</a></li>
+					<li><a href="index.php#">Sitemap</a></li>
+					<li><a href="index.php#">FAQ</a></li>
 				</ul>
 			</div>
 		</div>

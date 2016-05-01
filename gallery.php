@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0042)club.html -->
+<!-- saved from url=(0042)club.php -->
 <html lang="en" class=" js no-flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths gr__alethemes_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <title>Club</title>
@@ -31,24 +31,24 @@
 				  </div>
 					<nav id="top-menu">
 						<ul class="clearfix">
-							<li ><a href="index.html">Home</a></li>
-							<li><a href="team.html">Team</a></li>
-							<li><a href="blog.html">blog</a></li>
-							<li><a href="club.html">club</a></li>
-							<li class="active"><a href="gallery.html">gallery</a></li>
-							<li><a href="contact.html">contacts</a></li>
+							<li ><a href="index.php">Home</a></li>
+							<li><a href="team.php">Team</a></li>
+							<li><a href="blog.php">blog</a></li>
+							<li><a href="club.php">club</a></li>
+							<li class="active"><a href="gallery.php">gallery</a></li>
+							<li><a href="contact.php">contacts</a></li>
 							
 						</ul>
-						<a href="index.html#" id="pull">Menu</a>
+						<a href="index.php#" id="pull">Menu</a>
 					</nav>
                     <nav class="mobilemenu">
                         <select>
-                            <option value="index.html">Home</option>
-                            <option value="team.html">Team</option>
-                            <option value="blog.html">Blog</option>
-                            <option value="club.html">Club</option>
-                            <option value="gallery.html">Gallery</option>
-                            <option value="contact.html">Contact</option>
+                            <option value="index.php">Home</option>
+                            <option value="team.php">Team</option>
+                            <option value="blog.php">Blog</option>
+                            <option value="club.php">Club</option>
+                            <option value="gallery.php">Gallery</option>
+                            <option value="contact.php">Contact</option>
                         </select>
                     </nav>
 					
@@ -60,7 +60,7 @@
 	<section id="bc-t">
 		<div class="container">
 		<ul class="breadcrumb">
-			<li><a href="gallery.html#">Homepage</a></li><li><span class="sep">   →   </span></li><li><a href="gallery.html#">Gallery</a></li>
+			<li><a href="gallery.php#">Homepage</a></li><li><span class="sep">   →   </span></li><li><a href="gallery.php#">Gallery</a></li>
 		</ul>
 		
 		<h1 class="blog-title">Gallery</h1>
@@ -88,18 +88,18 @@
 			<!-- PAGINATION -->
 			<div class="pagination">
 				<ul>
-					<li class="nav-arr prev"><a href="gallery.html#"><i class="fa fa-angle-left"></i></a></li>
-					<li><a href="gallery.html#">1</a></li>
-					<li><a href="gallery.html#">2</a></li>
-					<li><a href="gallery.html#">3</a></li>
-					<li><a href="gallery.html#">4</a></li>
-					<li><a href="gallery.html#">5</a></li>
-					<li><a href="gallery.html#">6</a></li>
-					<li><a href="gallery.html#">7</a></li>
-					<li><a href="gallery.html#">8</a></li>
-					<li><a href="gallery.html#">9</a></li>
-					<li><a href="gallery.html#">10</a></li>
-					<li class="nav-arr next"><a href="gallery.html#"><i class="fa fa-angle-right"></i></a></li>
+					<li class="nav-arr prev"><a href="gallery.php#"><i class="fa fa-angle-left"></i></a></li>
+					<li><a href="gallery.php#">1</a></li>
+					<li><a href="gallery.php#">2</a></li>
+					<li><a href="gallery.php#">3</a></li>
+					<li><a href="gallery.php#">4</a></li>
+					<li><a href="gallery.php#">5</a></li>
+					<li><a href="gallery.php#">6</a></li>
+					<li><a href="gallery.php#">7</a></li>
+					<li><a href="gallery.php#">8</a></li>
+					<li><a href="gallery.php#">9</a></li>
+					<li><a href="gallery.php#">10</a></li>
+					<li class="nav-arr next"><a href="gallery.php#"><i class="fa fa-angle-right"></i></a></li>
 				</ul>
 			</div>
 		</div>
@@ -109,16 +109,16 @@
     <!-- Footer Section -->
     <footer>
 		<div class="container">
-			<div class="col-2"><a href="team.html#"><img src="./Team_files/footer-logo.png" width="140px" height="166px" alt=""></a></div>
+			<div class="col-2"><a href="team.php#"><img src="./Team_files/footer-logo.png" width="140px" height="166px" alt=""></a></div>
 			<div class="col-6">
 				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as </p>
 			<div class="col-4">
 				<div class="social-icon">
 					<ul id="social">
-						<li><a href="gallery.html#"><img src="./Gallery_files/soc-twitter.png" alt=""></a></li>
-						<li><a href="gallery.html#"><img src="./Gallery_files/soc-facebook.png" alt=""></a></li>
-						<li><a href="gallery.html#"><img src="./Gallery_files/soc-g.png" alt=""></a></li>
-						<li><a href="gallery.html#"><img src="./Gallery_files/soc-play.png" alt=""></a></li>
+						<li><a href="gallery.php#"><img src="./Gallery_files/soc-twitter.png" alt=""></a></li>
+						<li><a href="gallery.php#"><img src="./Gallery_files/soc-facebook.png" alt=""></a></li>
+						<li><a href="gallery.php#"><img src="./Gallery_files/soc-g.png" alt=""></a></li>
+						<li><a href="gallery.php#"><img src="./Gallery_files/soc-play.png" alt=""></a></li>
 					</ul>
 				</div>
 			</div><div class="col-6"><p class="copyright">© 2014  - All Rights Reserved </p></div>
@@ -126,22 +126,22 @@
 			<div class="col-2">
 			<h3>Information</h3>
 				<ul>
-					<li><a href="gallery.html#">About club</a></li>
-					<li><a href="gallery.html#">Our team</a></li>
-					<li><a href="gallery.html#">Registration</a></li>
-					<li><a href="gallery.html#">Features</a></li>
-					<li><a href="gallery.html#">404 page</a></li>
+					<li><a href="gallery.php#">About club</a></li>
+					<li><a href="gallery.php#">Our team</a></li>
+					<li><a href="gallery.php#">Registration</a></li>
+					<li><a href="gallery.php#">Features</a></li>
+					<li><a href="gallery.php#">404 page</a></li>
 
 				</ul>
 			</div>
 			<div class="col-2">
 			<h3>Support</h3>
 				<ul>
-					<li><a href="gallery.html#">Terms of Service</a></li>
-					<li><a href="gallery.html#">Security</a></li>
-					<li><a href="gallery.html#">Privacy PolicyHomepage</a></li>
-					<li><a href="gallery.html#">Sitemap</a></li>
-					<li><a href="gallery.html#">FAQ</a></li>
+					<li><a href="gallery.php#">Terms of Service</a></li>
+					<li><a href="gallery.php#">Security</a></li>
+					<li><a href="gallery.php#">Privacy PolicyHomepage</a></li>
+					<li><a href="gallery.php#">Sitemap</a></li>
+					<li><a href="gallery.php#">FAQ</a></li>
 				</ul>
 			</div>
 		</div>

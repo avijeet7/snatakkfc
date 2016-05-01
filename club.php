@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0042)club.html -->
+<!-- saved from url=(0042)club.php -->
 <html lang="en" class=" js no-flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths gr__alethemes_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <title>Club</title>
@@ -31,24 +31,24 @@
 				  </div>
 					<nav id="top-menu">
 						<ul class="clearfix">
-							<li ><a href="index.html">Home</a></li>
-							<li><a href="team.html">Team</a></li>
-							<li><a href="blog.html">blog</a></li>
-							<li class="active"><a href="club.html">club</a></li>
-							<li><a href="gallery.html">gallery</a></li>
-							<li><a href="contact.html">contacts</a></li>
+							<li ><a href="index.php">Home</a></li>
+							<li><a href="team.php">Team</a></li>
+							<li><a href="blog.php">blog</a></li>
+							<li class="active"><a href="club.php">club</a></li>
+							<li><a href="gallery.php">gallery</a></li>
+							<li><a href="contact.php">contacts</a></li>
 							
 						</ul>
-						<a href="index.html#" id="pull">Menu</a>
+						<a href="index.php#" id="pull">Menu</a>
 					</nav>
                     <nav class="mobilemenu">
                         <select>
-                            <option value="index.html">Home</option>
-                            <option value="team.html">Team</option>
-                            <option value="blog.html">Blog</option>
-                            <option value="club.html">Club</option>
-                            <option value="gallery.html">Gallery</option>
-                            <option value="contact.html">Contact</option>
+                            <option value="index.php">Home</option>
+                            <option value="team.php">Team</option>
+                            <option value="blog.php">Blog</option>
+                            <option value="club.php">Club</option>
+                            <option value="gallery.php">Gallery</option>
+                            <option value="contact.php">Contact</option>
                         </select>
                     </nav>
 					
@@ -60,7 +60,7 @@
 	<section id="bc-t">
 		<div class="container">
 		<ul class="breadcrumb">
-			<li><a href="club.html#">Homepage</a></li><li><span class="sep">   →   </span></li><li><a href="club.html#">Club</a></li>
+			<li><a href="club.php#">Homepage</a></li><li><span class="sep">   →   </span></li><li><a href="club.php#">Club</a></li>
 		</ul>
 		
 		<h1 class="blog-title">Club</h1>
@@ -85,49 +85,49 @@
 				<!-- TABS -->
 					<div id="tab" class="tabs ui-tabs ui-widget ui-widget-content ui-corner-all">
 						<ul class="clearfix ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
-            <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="section-1" aria-labelledby="ui-id-1" aria-selected="true"><a href="club.html#section-1" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">Directors</a></li>
-            <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="section-2" aria-labelledby="ui-id-2" aria-selected="false"><a href="club.html#section-2" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">Structure</a></li>
-            <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="section-3" aria-labelledby="ui-id-3" aria-selected="false"><a href="club.html#section-3" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3">Media guide</a></li>
-            <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="section-4" aria-labelledby="ui-id-4" aria-selected="false"><a href="club.html#section-4" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-4">Sponsors</a></li>
+            <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active" role="tab" tabindex="0" aria-controls="section-1" aria-labelledby="ui-id-1" aria-selected="true"><a href="club.php#section-1" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">Directors</a></li>
+            <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="section-2" aria-labelledby="ui-id-2" aria-selected="false"><a href="club.php#section-2" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">Structure</a></li>
+            <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="section-3" aria-labelledby="ui-id-3" aria-selected="false"><a href="club.php#section-3" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3">Media guide</a></li>
+            <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="section-4" aria-labelledby="ui-id-4" aria-selected="false"><a href="club.php#section-4" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-4">Sponsors</a></li>
 			</ul>
 			
 			
 			<div id="section-1" class="tab-content  ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-1" role="tabpanel" aria-expanded="true" aria-hidden="false">
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 				<div class="col-4 margin-10">
 					<div class="col-3"><img src="./Club_files/director-1.jpg" alt=""></div>
-					<div class="col-9 dir-n"><a href="club.html#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
+					<div class="col-9 dir-n"><a href="club.php#">Jan-Christian Dreesen</a><span>Executive board chairman</span></div>
 				</div>
 
 			</div>
@@ -146,7 +146,7 @@
 	<div class="container">
 		<div class="stad-i">
 				<h2>Stadium</h2>
-				<a href="club.html#" class="btn btn-bordered">Read more</a>
+				<a href="club.php#" class="btn btn-bordered">Read more</a>
 		</div>
 	</div>
 	</section>
@@ -158,17 +158,17 @@
 					<h3><span>our</span> honours</h3>
 				</div>
 				<div class="all-team">
-					<a href="club.html#">View all honours ›</a>
+					<a href="club.php#">View all honours ›</a>
 				</div>
 			</div>
 			<div class="col-8">
-				<div class="bx-wrapper" style="max-width: 628px; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 273px;"><div class="slider1" style="width: 615%; position: relative; transition-duration: 0s; transform: translate3d(-628px, 0px, 0px);"><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-1.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-2.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-3.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-4.jpg" alt=""></a></div>
-				  <div class="slide col-4" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-1.jpg" alt=""></a></div>
-				  <div class="slide col-4" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-2.jpg" alt=""></a></div>
-				  <div class="slide col-4" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-3.jpg" alt=""></a></div>
-				  <div class="slide col-4" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-4.jpg" alt=""></a></div>
+				<div class="bx-wrapper" style="max-width: 628px; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 273px;"><div class="slider1" style="width: 615%; position: relative; transition-duration: 0s; transform: translate3d(-628px, 0px, 0px);"><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-1.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-2.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-3.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-4.jpg" alt=""></a></div>
+				  <div class="slide col-4" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-1.jpg" alt=""></a></div>
+				  <div class="slide col-4" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-2.jpg" alt=""></a></div>
+				  <div class="slide col-4" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-3.jpg" alt=""></a></div>
+				  <div class="slide col-4" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-4.jpg" alt=""></a></div>
   
-<div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-1.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-2.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-3.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.html#"><img src="./Club_files/honors-4.jpg" alt=""></a></div></div></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+<div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-1.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-2.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-3.jpg" alt=""></a></div><div class="slide col-4 bx-clone" style="float: left; list-style: none; position: relative; width: 157px;"><a href="club.php#"><img src="./Club_files/honors-4.jpg" alt=""></a></div></div></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
 			</div>
 		</div>
 		</div>
@@ -177,16 +177,16 @@
     <!-- Footer Section -->
     <footer>
 		<div class="container">
-			<div class="col-2"><a href="team.html#"><img src="./Team_files/footer-logo.png" width="140px" height="166px" alt=""></a></div>
+			<div class="col-2"><a href="team.php#"><img src="./Team_files/footer-logo.png" width="140px" height="166px" alt=""></a></div>
 			<div class="col-6">
 				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as </p>
 			<div class="col-4">
 				<div class="social-icon">
 					<ul id="social">
-						<li><a href="club.html#"><img src="./Club_files/soc-twitter.png" alt=""></a></li>
-						<li><a href="club.html#"><img src="./Club_files/soc-facebook.png" alt=""></a></li>
-						<li><a href="club.html#"><img src="./Club_files/soc-g.png" alt=""></a></li>
-						<li><a href="club.html#"><img src="./Club_files/soc-play.png" alt=""></a></li>
+						<li><a href="club.php#"><img src="./Club_files/soc-twitter.png" alt=""></a></li>
+						<li><a href="club.php#"><img src="./Club_files/soc-facebook.png" alt=""></a></li>
+						<li><a href="club.php#"><img src="./Club_files/soc-g.png" alt=""></a></li>
+						<li><a href="club.php#"><img src="./Club_files/soc-play.png" alt=""></a></li>
 					</ul>
 				</div>
 			</div><div class="col-6"><p class="copyright">© 2014  - All Rights Reserved </p></div>
@@ -194,22 +194,22 @@
 			<div class="col-2">
 			<h3>Information</h3>
 				<ul>
-					<li><a href="club.html#">About club</a></li>
-					<li><a href="club.html#">Our team</a></li>
-					<li><a href="club.html#">Registration</a></li>
-					<li><a href="club.html#">Features</a></li>
-					<li><a href="club.html#">404 page</a></li>
+					<li><a href="club.php#">About club</a></li>
+					<li><a href="club.php#">Our team</a></li>
+					<li><a href="club.php#">Registration</a></li>
+					<li><a href="club.php#">Features</a></li>
+					<li><a href="club.php#">404 page</a></li>
 
 				</ul>
 			</div>
 			<div class="col-2">
 			<h3>Support</h3>
 				<ul>
-					<li><a href="club.html#">Terms of Service</a></li>
-					<li><a href="club.html#">Security</a></li>
-					<li><a href="club.html#">Privacy PolicyHomepage</a></li>
-					<li><a href="club.html#">Sitemap</a></li>
-					<li><a href="club.html#">FAQ</a></li>
+					<li><a href="club.php#">Terms of Service</a></li>
+					<li><a href="club.php#">Security</a></li>
+					<li><a href="club.php#">Privacy PolicyHomepage</a></li>
+					<li><a href="club.php#">Sitemap</a></li>
+					<li><a href="club.php#">FAQ</a></li>
 				</ul>
 			</div>
 		</div>
